@@ -8,41 +8,25 @@
 
 ❗ Problem Statement
 
-🖼️ System Block Diagram
-
-🏗️ System Architecture & Workflow
-
 🔧 Hardware Components
 
 💻 Software Tools & Technologies
 
+🖼️ System Block Diagram
+
+🏗️ Project Workflow
+
 📂 Project Directory Structure
-
-🚀 Key Features & Functionalities
-
-⚡ Working Principle
-
-🔌 Pin Configuration & Connections
 
 🖥️ LCD Display Output
 
-📸 Project Demonstration Gallery
-
 ▶️ Compilation & Build Instructions
 
-🧪 Testing & Debugging
+🚀 Key Features 
 
-📊 Results & Performance
+📈 Future Scope
 
-🛠️ Challenges & Solutions
-
-📈 Future Enhancements
-
-🌐 Real-World Applications
-
-📚 Learning Outcomes
-
-👩‍💻 Author & Contact
+👩‍💻 Author 
 
 ## 📌 Project Introduction
 
