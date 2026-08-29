@@ -72,3 +72,6 @@ The system is organized into three functional units:
 
 🧩 Design a multi-node architecture consisting of Main, Fuel, and Indicator Nodes.
 
+## System Block Diagram
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d22889bc-804a-412c-a6d5-df63f6df2585" />
