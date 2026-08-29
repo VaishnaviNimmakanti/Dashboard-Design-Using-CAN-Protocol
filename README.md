@@ -78,6 +78,36 @@ In conventional vehicle dashboards, different parameters such as engine temperat
 
 This project addresses the problem by developing a CAN Bus-based automotive dashboard system using multiple LPC2129 ARM7 microcontroller nodes. The system enables the Main Node to monitor engine temperature, receive fuel-level information from the Fuel Node, and send indicator commands to the Indicator Node through the CAN network, providing a practical demonstration of distributed automotive communication.
 
+## 🔧 Hardware Components
+
+| Component | Purpose |
+|---|---|
+| 🧠 **LPC2129 ARM7 Microcontroller** | Main processing and control unit for the nodes |
+| 📡 **MCP2551 CAN Transceiver** | Provides the physical interface for CAN communication |
+| 🌡️ **DS18B20 Temperature Sensor** | Measures engine temperature |
+| ⛽ **Fuel Gauge / Fuel Sensor** | Provides fuel-level information |
+| 🖥️ **16×2 LCD Display** | Displays temperature, fuel percentage, and indicator status |
+| 🔘 **Left Indicator Switch** | Activates the left indicator input |
+| 🔘 **Right Indicator Switch** | Activates the right indicator input |
+| 💡 **LED Indicators** | Represents left and right turn indicators |
+| 🔌 **USB-to-UART Converter** | Provides serial communication with the PC |
+| 🎚️ **Potentiometer** | Provides variable voltage for ADC testing |
+| 🔗 **CANH & CANL Lines** | Carry CAN communication between nodes |
+| ⚡ **CAN Termination Resistors** | Provide proper CAN bus termination |
+
+## Software Tools and Technologies
+
+| 🛠️ Software / Technology             | 🎯 Purpose                                                |
+| ------------------------------------- | --------------------------------------------------------- |
+| **Embedded C**                        | Firmware development and control logic                    |
+| **Keil C Compiler**                   | Compiling and building the Embedded C program             |
+| **Flash Magic**                       | Programming/flashing the firmware into the LPC2129        |
+| **CAN Protocol**                      | Communication between Main, Fuel, and Indicator Nodes     |
+| **LPC2129 ARM7 Architecture**         | Microcontroller platform for implementing the system      |
+| **ADC**                               | Converting the fuel-gauge analog signal into digital data |
+| **External Interrupts (EINT0/EINT1)** | Detecting left and right indicator switch inputs          |
+| **CAN Interface**                     | Sending and receiving data between nodes                  |
+
 ## System Block Diagram
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d22889bc-804a-412c-a6d5-df63f6df2585" />
