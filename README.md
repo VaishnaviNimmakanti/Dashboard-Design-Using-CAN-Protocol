@@ -6,7 +6,7 @@
 
 🎯 Project Objectives
 
-💡 Key Highlights
+❗ Problem Statement
 
 🖼️ System Block Diagram
 
@@ -71,6 +71,12 @@ The system is organized into three functional units:
 🔄 Control left and right indicators based on switch inputs and CAN commands.
 
 🧩 Design a multi-node architecture consisting of Main, Fuel, and Indicator Nodes.
+
+## ❗ Problem Statement
+
+In conventional vehicle dashboards, different parameters such as engine temperature, fuel level, and indicator status need to be monitored and communicated efficiently between electronic control units. A system is required to collect these parameters, process the information, display important data to the driver, and control vehicle indicators through reliable communication between multiple embedded nodes.
+
+This project addresses the problem by developing a CAN Bus-based automotive dashboard system using multiple LPC2129 ARM7 microcontroller nodes. The system enables the Main Node to monitor engine temperature, receive fuel-level information from the Fuel Node, and send indicator commands to the Indicator Node through the CAN network, providing a practical demonstration of distributed automotive communication.
 
 ## System Block Diagram
 
