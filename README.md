@@ -24,6 +24,7 @@
 📚 Learning Outcomes
 👩‍💻 Author & Contact
 ```
+
 ##📌 Project Introduction
 
 **Dashboard Design Using CAN Bus** is an automotive embedded system project that demonstrates the use of **CAN communication** for exchanging vehicle-related information between multiple microcontroller nodes. The system is built around the **LPC2129 ARM7 microcontroller** and is designed to represent the basic functionality of an electronic vehicle dashboard.
@@ -37,6 +38,4 @@ The system is organized into three functional units:
 * **Fuel Node** – Measures the fuel level through the microcontroller’s built-in ADC and converts the sensor reading into fuel-percentage information. The processed data is then transmitted to the Main Node over the CAN bus.
 
 * **Indicator Node** – Monitors CAN messages received from the Main Node and operates the appropriate LED indicators for left and right turn signals.
-
-This project provides hands-on exposure to **Embedded C, ARM7 LPC2129 architecture, CAN protocol, ADC, LCD interfacing, sensor interfacing, and interrupt-based control**, while demonstrating a practical multi-node communication system.
 
