@@ -108,7 +108,7 @@ This project addresses the problem by developing a CAN Bus-based automotive dash
 | **External Interrupts (EINT0/EINT1)** | Detecting left and right indicator switch inputs          |
 | **CAN Interface**                     | Sending and receiving data between nodes                  |
 
-## System Block Diagram
+## 🖼️System Block Diagram
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d22889bc-804a-412c-a6d5-df63f6df2585" />
 
@@ -144,7 +144,7 @@ This project addresses the problem by developing a CAN Bus-based automotive dash
 
 6. MCP2551 CAN transceivers are used for communication across the CAN network.
 
-7.Left and right turn signals are managed using CAN messages and external interrupts.
+7. Left and right turn signals are managed using CAN messages and external interrupts.
 
 8. Dedicated LED outputs represent the left and right indicator signals.
 
@@ -173,9 +173,7 @@ This project addresses the problem by developing a CAN Bus-based automotive dash
 
 🔐 Addition of vehicle security and RFID-based access control.
 
-## Author
-
-👩‍💻 Author
+## 👩‍💻 Author
 
 Vaishnavi Nimmakanti
 
