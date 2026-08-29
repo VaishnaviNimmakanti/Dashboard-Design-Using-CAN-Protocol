@@ -115,36 +115,61 @@ This project addresses the problem by developing a CAN Bus-based automotive dash
 ## ⚙️Project Workflow
 
 Initialize the system — The LPC2129 nodes, LCD, ADC, CAN interface, and required inputs are initialized.
+
 Measure engine temperature — The Main Node continuously reads the temperature from the DS18B20 sensor.
+
 Measure fuel level — The Fuel Node reads the fuel-gauge signal through the LPC2129's on-chip ADC and obtains the fuel percentage.
+
 Transmit fuel information — The Fuel Node sends the fuel data to the Main Node through the CAN network.
+
 Display dashboard data — The Main Node displays the engine temperature and fuel percentage on the LCD.
+
 Detect indicator input — Left and right indicator switches generate the corresponding external interrupts at the Main Node.
+
 Send indicator command — The Main Node transmits the indicator command through CAN to the Indicator Node.
+
 Control indicators — The Indicator Node receives the CAN message and activates the appropriate left or right LED indicators
 
 ## 🚀 Features
 CAN-based communication is established between the Main, Fuel, and Indicator Nodes.
+
 The LPC2129 ARM7 microcontroller serves as the core platform for embedded firmware development.
+
 Engine temperature is continuously acquired through the DS18B20 sensor.
+
 Fuel-level information is obtained through the built-in ADC of the LPC2129.
+
 Dashboard parameters such as temperature, fuel percentage, and indicator status are presented on a 16×2 LCD.
+
 MCP2551 CAN transceivers are used for communication across the CAN network.
+
 Left and right turn signals are managed using CAN messages and external interrupts.
+
 Dedicated LED outputs represent the left and right indicator signals.
+
 The system follows a distributed three-node architecture for different dashboard functions.
+
 Firmware is implemented in Embedded C for the LPC2129 platform.
 
 ## 📈 Future Scope
 📱 Integration of a mobile application for remote dashboard monitoring.
+
 🌐 Addition of IoT connectivity for cloud-based vehicle data monitoring.
+
 🛰️ Integration of GPS for real-time vehicle location tracking.
+
 📊 Addition of speed and RPM monitoring for a more complete dashboard.
+
 🚨 Implementation of over-temperature and low-fuel warning alerts.
+
 🔋 Addition of battery voltage and battery health monitoring.
+
 🛞 Integration of tyre pressure monitoring (TPMS).
+
 🧭 Addition of digital speedometer and odometer functionality.
+
 🖥️ Upgrade from a 16×2 LCD to a TFT/graphical display for enhanced visualization.
+
 🔐 Addition of vehicle security and RFID-based access control.
 
 ## Author
@@ -154,6 +179,9 @@ Firmware is implemented in Embedded C for the LPC2129 platform.
 Vaishnavi Nimmakanti
 
 🎓 B.Tech — Electronics & Communication Engineering
+
 💻 Embedded Systems Enthusiast
+
 🔧 Skills: Embedded C, C++, ARM7, LPC2129, CAN, UART, SPI, I2C
+
 📡 Interested in Embedded Systems, Firmware Development & Automotive Electronics
