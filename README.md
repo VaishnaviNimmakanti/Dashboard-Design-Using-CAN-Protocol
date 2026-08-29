@@ -22,4 +22,5 @@
 📈 **Future Enhancements**
 🌐 **Real-World Applications**
 📚 **Learning Outcomes**
-👩‍💻 **Author & Contact**```
+👩‍💻 **Author & Contact**
+```
