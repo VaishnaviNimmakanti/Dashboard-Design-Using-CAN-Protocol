@@ -114,42 +114,43 @@ This project addresses the problem by developing a CAN Bus-based automotive dash
 
 ## ⚙️Project Workflow
 
-Initialize the system — The LPC2129 nodes, LCD, ADC, CAN interface, and required inputs are initialized.
+1. Initialize the system — The LPC2129 nodes, LCD, ADC, CAN interface, and required inputs are initialized.
 
-Measure engine temperature — The Main Node continuously reads the temperature from the DS18B20 sensor.
+2. Measure engine temperature — The Main Node continuously reads the temperature from the DS18B20 sensor.
 
-Measure fuel level — The Fuel Node reads the fuel-gauge signal through the LPC2129's on-chip ADC and obtains the fuel percentage.
+3. Measure fuel level — The Fuel Node reads the fuel-gauge signal through the LPC2129's on-chip ADC and obtains the fuel percentage.
 
-Transmit fuel information — The Fuel Node sends the fuel data to the Main Node through the CAN network.
+4. Transmit fuel information — The Fuel Node sends the fuel data to the Main Node through the CAN network.
 
-Display dashboard data — The Main Node displays the engine temperature and fuel percentage on the LCD.
+5. Display dashboard data — The Main Node displays the engine temperature and fuel percentage on the LCD.
 
-Detect indicator input — Left and right indicator switches generate the corresponding external interrupts at the Main Node.
+6. Detect indicator input — Left and right indicator switches generate the corresponding external interrupts at the Main Node.
 
-Send indicator command — The Main Node transmits the indicator command through CAN to the Indicator Node.
+7. Send indicator command — The Main Node transmits the indicator command through CAN to the Indicator Node.
 
-Control indicators — The Indicator Node receives the CAN message and activates the appropriate left or right LED indicators
+8. Control indicators — The Indicator Node receives the CAN message and activates the appropriate left or right LED indicators
 
 ## 🚀 Features
-CAN-based communication is established between the Main, Fuel, and Indicator Nodes.
 
-The LPC2129 ARM7 microcontroller serves as the core platform for embedded firmware development.
+1. CAN-based communication is established between the Main, Fuel, and Indicator Nodes.
 
-Engine temperature is continuously acquired through the DS18B20 sensor.
+2. The LPC2129 ARM7 microcontroller serves as the core platform for embedded firmware development.
 
-Fuel-level information is obtained through the built-in ADC of the LPC2129.
+3. Engine temperature is continuously acquired through the DS18B20 sensor.
 
-Dashboard parameters such as temperature, fuel percentage, and indicator status are presented on a 16×2 LCD.
+4. Fuel-level information is obtained through the built-in ADC of the LPC2129.
 
-MCP2551 CAN transceivers are used for communication across the CAN network.
+5. Dashboard parameters such as temperature, fuel percentage, and indicator status are presented on a 16×2 LCD.
 
-Left and right turn signals are managed using CAN messages and external interrupts.
+6. MCP2551 CAN transceivers are used for communication across the CAN network.
 
-Dedicated LED outputs represent the left and right indicator signals.
+7.Left and right turn signals are managed using CAN messages and external interrupts.
 
-The system follows a distributed three-node architecture for different dashboard functions.
+8. Dedicated LED outputs represent the left and right indicator signals.
 
-Firmware is implemented in Embedded C for the LPC2129 platform.
+9. The system follows a distributed three-node architecture for different dashboard functions.
+
+10. Firmware is implemented in Embedded C for the LPC2129 platform.
 
 ## 📈 Future Scope
 📱 Integration of a mobile application for remote dashboard monitoring.
