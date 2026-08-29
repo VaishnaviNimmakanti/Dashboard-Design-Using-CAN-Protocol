@@ -39,11 +39,16 @@ The system is organized into three functional units:
 * **Indicator Node** – Monitors CAN messages received from the Main Node and operates the appropriate LED indicators for left and right turn signals.
 
 ## 🎯 Project Objectives
-```
+
 🚗 Develop an automotive dashboard using the LPC2129 ARM7 microcontroller.
+
 🌡️ Monitor engine temperature using the DS18B20 sensor and display the value on an LCD.
+
 ⛽ Measure fuel level through the on-chip ADC and represent it as a fuel percentage.
+
 📡 Implement CAN Bus communication for reliable data exchange between multiple nodes.
+
 🔄 Control left and right indicators based on switch inputs and CAN commands.
+
 🧩 Design a multi-node architecture consisting of Main, Fuel, and Indicator Nodes.
-```
+
