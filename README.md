@@ -2,7 +2,7 @@
 
 ## 📑 Table of Contents
 
-```📌 Project Introduction
+📌 Project Introduction
 🎯 Project Objectives
 💡 Key Highlights
 🖼️ System Block Diagram
@@ -23,9 +23,8 @@
 🌐 Real-World Applications
 📚 Learning Outcomes
 👩‍💻 Author & Contact
-```
 
-##📌 Project Introduction
+## 📌 Project Introduction
 
 **Dashboard Design Using CAN Bus** is an automotive embedded system project that demonstrates the use of **CAN communication** for exchanging vehicle-related information between multiple microcontroller nodes. The system is built around the **LPC2129 ARM7 microcontroller** and is designed to represent the basic functionality of an electronic vehicle dashboard.
 
