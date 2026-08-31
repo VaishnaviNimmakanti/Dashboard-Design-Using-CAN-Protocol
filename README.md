@@ -115,7 +115,7 @@ This project addresses the problem by developing a CAN Bus-based automotive dash
 8. Control indicators — The Indicator Node receives the CAN message and activates the appropriate left or right LED indicators
 
 ## Project Directory Structure
-
+```
 📁 Project
 │
 ├── 📁 Main Node
@@ -164,7 +164,7 @@ This project addresses the problem by developing a CAN Bus-based automotive dash
     ├── 📄 types.h
     ├── 📄 uart0.c
     └── 📄 uart0.h
-    
+   ``` 
 ## 🚀 Features
 
 1. CAN-based communication is established between the Main, Fuel, and Indicator Nodes.
