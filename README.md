@@ -164,7 +164,12 @@ This project addresses the problem by developing a CAN Bus-based automotive dash
     ├── 📄 types.h
     ├── 📄 uart0.c
     └── 📄 uart0.h
-   ``` 
+   ```
+
+## LCD Display Output
+
+<img width="1412" height="1114" alt="image" src="https://github.com/user-attachments/assets/417055e2-07bd-4612-b24f-f13b05539c66" />
+
 ## 🚀 Features
 
 1. CAN-based communication is established between the Main, Fuel, and Indicator Nodes.
