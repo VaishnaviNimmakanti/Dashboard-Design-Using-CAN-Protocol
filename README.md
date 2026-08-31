@@ -114,7 +114,7 @@ This project addresses the problem by developing a CAN Bus-based automotive dash
 
 8. Control indicators — The Indicator Node receives the CAN message and activates the appropriate left or right LED indicators
 
-## Project Directory Structure
+## 📂Project Directory Structure
 ```
 📁 Project
 │
@@ -166,7 +166,7 @@ This project addresses the problem by developing a CAN Bus-based automotive dash
     └── 📄 uart0.h
    ```
 
-## LCD Display Output
+## 🖥️LCD Display Output
 
 <img width="1412" height="1114" alt="image" src="https://github.com/user-attachments/assets/417055e2-07bd-4612-b24f-f13b05539c66" />
 
@@ -235,6 +235,6 @@ Vaishnavi Nimmakanti
 
 💻 Embedded Systems Enthusiast
 
-🔧 Skills: Embedded C, C++, ARM7, LPC2129, CAN, UART, SPI, I2C
+🔧 Skills: Embedded C, ARM7, LPC2129, CAN
 
-📡 Interested in Embedded Systems, Firmware Development & Automotive Electronics
+
