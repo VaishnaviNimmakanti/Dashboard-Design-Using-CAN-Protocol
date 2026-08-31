@@ -119,11 +119,16 @@ This project addresses the problem by developing a CAN Bus-based automotive dash
 📁Project
 │
 ├── 📁Main Node
+
 │   ├── Main_LCD.c
 │   ├── N1
+
 │   ├── can.c
+
 │   ├── can.h
+
 │   ├── can_defines.h
+
 │   ├── defines.h
 │   ├── delay.c
 │   ├── delay.h
