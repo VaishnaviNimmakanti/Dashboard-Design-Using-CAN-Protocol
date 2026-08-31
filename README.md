@@ -170,6 +170,19 @@ This project addresses the problem by developing a CAN Bus-based automotive dash
 
 <img width="1412" height="1114" alt="image" src="https://github.com/user-attachments/assets/417055e2-07bd-4612-b24f-f13b05539c66" />
 
+## ▶️ Compilation & Build Instructions
+
+1. Open the project in Keil µVision.
+2. Select the LPC2129 ARM7 microcontroller.
+3. Build and compile the project.
+4. Generate the required HEX file.
+5. Flash the LPC2129 using Flash Magic.
+6. Connect the Main, Fuel, and Indicator Nodes through the CAN Bus.
+7. Connect the required sensors, switches, LCD, and LEDs.
+8. Power ON the complete system.
+9. Verify CAN communication between all nodes.
+10. Observe the temperature, fuel percentage, and indicator status on the LCD.
+
 ## 🚀 Features
 
 1. CAN-based communication is established between the Main, Fuel, and Indicator Nodes.
@@ -193,6 +206,7 @@ This project addresses the problem by developing a CAN Bus-based automotive dash
 10. Firmware is implemented in Embedded C for the LPC2129 platform.
 
 ## 📈 Future Scope
+
 📱 Integration of a mobile application for remote dashboard monitoring.
 
 🌐 Addition of IoT connectivity for cloud-based vehicle data monitoring.
