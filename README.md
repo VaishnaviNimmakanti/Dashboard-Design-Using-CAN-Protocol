@@ -114,6 +114,60 @@ This project addresses the problem by developing a CAN Bus-based automotive dash
 
 8. Control indicators — The Indicator Node receives the CAN message and activates the appropriate left or right LED indicators
 
+## Project Directory Structure
+
+📁Project
+│
+├── 📁Main Node
+│   ├── Main_LCD.c
+│   ├── N1
+│   ├── can.c
+│   ├── can.h
+│   ├── can_defines.h
+│   ├── defines.h
+│   ├── delay.c
+│   ├── delay.h
+│   ├── ds18b20.c
+│   ├── ds18b20.h
+│   ├── headers.h
+│   ├── lcd.c
+│   ├── lcd.h
+│   ├── main_node.c
+│   ├── pin_function_defines.h
+│   ├── types.h
+│   └── README.md
+│
+├── 📁Fuel Gauge
+│   ├── N3
+│   ├── adc.c
+│   ├── adc.h
+│   ├── adc_defines.h
+│   ├── can.c
+│   ├── can.h
+│   ├── can_defines.h
+│   ├── defines.h
+│   ├── delay.c
+│   ├── delay.h
+│   ├── fuel_node.c
+│   ├── headers.h
+│   ├── main.c
+│   ├── types.h
+│   ├── uart0.c
+│   └── uart0.h
+│
+└── 📁Indicator Node
+    ├── N2
+    ├── can.c
+    ├── can.h
+    ├── can_defines.h
+    ├── defines.h
+    ├── headers.h
+    ├── indicator_node.c
+    ├── pin_function_defines.h
+    ├── types.h
+    ├── uart0.c
+    └── uart0.h
+    
 ## 🚀 Features
 
 1. CAN-based communication is established between the Main, Fuel, and Indicator Nodes.
